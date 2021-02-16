@@ -20,7 +20,7 @@
 # }
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(readr))
-
+suppressPackageStartupMessages(library(purrr))
 
 ## get input for file location passed from the command line
 args <- commandArgs(trailingOnly=TRUE)
