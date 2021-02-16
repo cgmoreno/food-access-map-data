@@ -26,7 +26,7 @@ jobs:
   #  - name: set up libprotobuf
     #  run: sudo apt install libprotobuf8 
     - name: Install Packages
-      run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
+      run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
     #- name: Install remotes packages
     #  run: Rscript -e 'remotes::install_github("walkerke/mapboxapi", dependencies = TRUE)'
     - name: Get current directory
