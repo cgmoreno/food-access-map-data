@@ -34,9 +34,10 @@ jobs:
     - name: Run workflow as shell script
       run: bash 'data_prep_scripts/run.sh'
     - name: git add 
-      run: git add test_merged_20210119.csv
-    - name: git commit to github repo  
-      run: git commit -m "newly updated merged datasets"
-    - name: git push commit
-      run: git push origin master
+      run |
+        git add test_merged_20210119.csv
+        git config --global user.name 'cgmoreno'
+        git config --global user.email 'cgmoreno@users.noreply.github.com'
+        git commit -m "newly updated merged datasets"
+        git push
       
