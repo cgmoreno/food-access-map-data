@@ -34,7 +34,7 @@ jobs:
     - name: Run workflow as shell script
       run: bash 'data_prep_scripts/run.sh'
     - name: git add 
-      run |
+      run: |
         git add test_merged_20210119.csv
         git config --global user.name 'cgmoreno'
         git config --global user.email 'cgmoreno@users.noreply.github.com'
