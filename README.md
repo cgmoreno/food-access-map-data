@@ -1,3 +1,4 @@
+#
 ## What is the Food Access Map?
 This project's goal is to create an internal and public-facing resource (e.g. an interactive map) for people looking to find healthy, affordable food. [Pittsburgh Food Policy Council](https://www.pittsburghfoodpolicy.org), an umbrella organization for food-related nonprofits, is the project sponsor. More information about the need for this project can be found [here](https://docs.google.com/presentation/d/1hk3n8cwbKtqxZjHni3JJlvjSSUeCv4dbVIdjq3FiTp8/edit#slide=id.g58c466d72b_0_179). 
 
